@@ -14,5 +14,7 @@ public class Piano extends World
     public Piano() 
     {
         super(800, 340, 1);
+        addObject( new Key ("g", "3a.wav"), 300, 140);
+        addObject( new Key ("f", "3g.wav"), 237, 140);
     }
 }
