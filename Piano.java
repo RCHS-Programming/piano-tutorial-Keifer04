@@ -31,5 +31,6 @@ public class Piano extends World
          spaceAtEdge = (800 - keyWidth*12) / 2;
          for (i=0; i<12; i++)
             addObject (new Key ("g", "3a.wav"), keyWidth*i + spaceAtEdge + keyWidth/2, keyHeight / 2);
+            
     }
 }
