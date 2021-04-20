@@ -14,7 +14,22 @@ public class Piano extends World
     public Piano() 
     {
         super(800, 340, 1);
-        addObject( new Key ("g", "3a.wav"), 300, 140);
-        addObject( new Key ("f", "3g.wav"), 237, 140);
+        pianoKeys();
+        
+    }
+    
+    public void pianoKeys()
+    {
+        
+         int i;
+         int keyWidth;
+         int keyHeight;
+         int spaceAtEdge; 
+         Key key = new Key(" ", " ");
+         keyWidth = key.getImage().getWidth();
+         keyHeight = key.getImage().getHeight(); 
+         spaceAtEdge = (800 - keyWidth*12) / 2;
+         for (i=0; i<12; i++)
+            addObject (new Key ("g", "3a.wav"), keyWidth*i + spaceAtEdge + keyWidth/2, keyHeight / 2);
     }
 }

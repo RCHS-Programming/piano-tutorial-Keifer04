@@ -25,7 +25,7 @@ public class Key extends Actor
             play();
             isDown = true;
         }
-        if( !isDown && Greenfoot.isKeyDown(key))
+        if( isDown && !Greenfoot.isKeyDown(key))
         {
             setImage("white-key.png");
             isDown = false;
