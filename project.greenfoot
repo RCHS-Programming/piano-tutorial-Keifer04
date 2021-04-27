@@ -1,5 +1,5 @@
 #Greenfoot properties
-#Tue Apr 20 11:38:14 EDT 2021
+#Tue Apr 27 11:31:41 EDT 2021
 class.Crab.superclass=
 editor.fx.0.height=867
 target2.width=80
@@ -61,7 +61,7 @@ version=3.0.0
 class.Building.superclass=greenfoot.World
 editor.fx.0.y=0
 target5.editor.width=1044
-editor.fx.0.x=713
+editor.fx.0.x=798
 class.Key.image=white-key.png
 target2.showInterface=false
 class.Flag.superclass=greenfoot.Actor
@@ -80,7 +80,7 @@ target6.editor.y=22
 target6.editor.x=0
 target5.editor.height=1005
 class.Explosion.superclass=greenfoot.Actor
-editor.fx.0.width=733
+editor.fx.0.width=649
 class.Crown.superclass=greenfoot.Actor
 class.RedKey.superclass=Key
 dependency2.to=Key
